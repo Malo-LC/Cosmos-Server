@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/cosmos/api': {
-        target: 'https://localhost:8443',
+        target: 'http://localhost',
         secure: false,
         ws: true,
       }
